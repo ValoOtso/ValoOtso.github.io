@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1000px) {
+    
+    .valikko {
+        display: inline-block;
+        align-items: flex-start;
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .valikko a {
+        padding: 8px 8px 8px 8px;
+    }
+
+    #sisältö {
+        width: 600px;
+        top: auto;
+        margin: auto;
+        right: 0;
+        left: 0;
+        margin-bottom: 10px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .valikko a {
+        font-size: 40px;
+    }
+
+    .valikko a:hover {
+        font-size: 45px;
+    }
+    #sisältö {
+        width: auto;
+        margin: 10px;
+        margin-bottom: 10px;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #sisältö {
+        width: auto;
+        margin: 10px;
+    }
+}
